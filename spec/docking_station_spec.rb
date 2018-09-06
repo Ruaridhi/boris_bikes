@@ -19,7 +19,7 @@ end
       expect { subject.dock (Bike.new) }.to raise_error 'Dock full'
   end
 end
-
+ 
 
   # it 'dock should create a bike' do
   #   bike1 = Bike.new

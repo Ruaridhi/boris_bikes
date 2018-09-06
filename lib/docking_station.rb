@@ -20,3 +20,4 @@ class DockingStation
   end
 
 end
+ 
