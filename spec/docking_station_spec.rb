@@ -14,8 +14,8 @@ describe DockingStation do
 end
 
   describe '#dock' do
-    it 'should not dock bike if at capacity (1)' do
-      subject.dock(Bike.new)
+    it 'should not dock bike if at capacity (20)' do
+      20.times {subject.dock(Bike.new)}
       expect { subject.dock (Bike.new) }.to raise_error 'Dock full'
   end
 end
